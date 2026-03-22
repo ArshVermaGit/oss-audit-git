@@ -1,11 +1,15 @@
-# OSS Audit — Git
+# OSS Audit — Git (24BCG10026)
 
 **Student:** Arsh Verma
 **Roll Number:** 24BCG10026
 **Course:** Open Source Software — CSE0002
 **Chosen Software:** Git (Version Control System)
 **License:** GNU General Public License v2 (GPL v2)
+<<<<<<< Updated upstream
 **Repository:** https://github.com/ArshVermaGit/oss-audit-git
+=======
+**Repository:** https://github.com/ArshVermaGit/oss-audit-24BCG10026
+>>>>>>> Stashed changes
 
 ---
 
@@ -24,7 +28,7 @@ Git was created by Linus Torvalds in April 2005 after BitMover revoked the free 
 ## Repository Structure
 
 ```
-oss-audit-git/
+oss-audit-24BCG10026/
 ├── README.md                              ← Project documentation (this file)
 ├── scripts/
 │   ├── script1_system_identity.sh         ← System Identity Report
@@ -70,8 +74,8 @@ oss-audit-git/
 
 6. **Clone this repository:**
    ```bash
-   git clone https://github.com/[YOUR GITHUB USERNAME]/oss-audit-git.git
-   cd oss-audit-git
+   git clone https://github.com/ArshVermaGit/oss-audit-24BCG10026.git
+   cd oss-audit-24BCG10026
    ```
    *(Replace `[YOUR GITHUB USERNAME]` with your actual GitHub username.)*
 
