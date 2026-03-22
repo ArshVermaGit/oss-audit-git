@@ -1,8 +1,8 @@
 # OSS Audit — Git
 
-**Student:** [YOUR NAME]
-**Roll Number:** [YOUR ROLL NUMBER]
-**Course:** Open Source Software (OSS NGMC)
+**Student:** Arsh Verma
+**Roll Number:** 24BCG10026
+**Course:** Open Source Software — CSE0002
 **Chosen Software:** Git (Version Control System)
 **License:** GNU General Public License v2 (GPL v2)
 **Repository:** https://github.com/[YOUR GITHUB USERNAME]/oss-audit-git
@@ -73,6 +73,7 @@ oss-audit-git/
    git clone https://github.com/[YOUR GITHUB USERNAME]/oss-audit-git.git
    cd oss-audit-git
    ```
+   *(Replace `[YOUR GITHUB USERNAME]` with your actual GitHub username.)*
 
 ---
 
