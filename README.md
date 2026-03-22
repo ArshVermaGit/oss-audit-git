@@ -11,13 +11,56 @@
 
 ## About This Project
 
-This repository houses the capstone audit of **Git** — the world's most widely used distributed version control system — conducted as part of the Open Source Software (OSS NGMC) course. The audit examines Git's origin story and the events that led Linus Torvalds to create it, analyses its GPL v2 licensing and the philosophical foundations of copyleft, and maps its footprint on Linux systems. It also compares Git against proprietary alternatives such as Perforce and BitKeeper. Alongside the written report, the project includes five original shell scripts that demonstrate practical Linux command-line and shell scripting skills.
+This repository houses the capstone audit of **Git** — the world's most widely used distributed version control system — conducted as part of the Open Source Software (OSS NGMC) course. The audit examines Git's origin story, analysis of its GPL v2 licensing, and its technical footprint on Linux systems. Alongside the written report, the project includes five original shell scripts that demonstrate practical Linux command-line and shell scripting skills.
 
 ---
 
 ## Chosen Software — Git
 
-Git was created by Linus Torvalds in April 2005 after BitMover revoked the free licence for BitKeeper that the Linux kernel team had been relying on for source-code management. Torvalds needed a replacement that was fast, distributed, and capable of handling a project the size of the Linux kernel, so he wrote the first working version of Git in roughly ten days. Git is a distributed version control system, meaning every developer holds a full copy of the repository history — there is no single point of failure. It is released under the GNU General Public License version 2 (GPL v2), which guarantees the four freedoms (use, study, modify, distribute) and enforces copyleft so that derivative works must also remain open source. Today, Git powers platforms like GitHub, GitLab, and Gitea, and is the backbone of virtually all modern collaborative software development.
+Git is a distributed version control system created by Linus Torvalds in 2005. It was born out of a crisis in the Linux kernel community after a proprietary tool (BitKeeper) revoked its free license. This event catalyzed the creation of Git, which has since become the industry standard for collaboration, transparency, and freedom in software development.
+
+---
+
+## 🛠️ Setup & Configuration
+
+Follow these steps to set up the environment and run the project from your terminal.
+
+### 1. Environment Setup
+The project is designed for **Linux** environments (Ubuntu, Debian, CentOS, RHEL, Fedora). If you are on macOS, the scripts will run but some system-level checks (like `/etc/os-release`) may provide fallback information.
+
+### 2. Dependency Installation
+Ensure you have `bash`, `git`, and standard `coreutils` installed.
+
+**Ubuntu / Debian:**
+```bash
+sudo apt update && sudo apt install git -y
+```
+
+**RHEL / CentOS / Fedora:**
+```bash
+sudo yum install git -y   # CentOS/RHEL
+sudo dnf install git -y   # Fedora
+```
+
+### 3. Git Configuration (Optional but Recommended)
+For specific auditing scripts to function perfectly, configure your local Git identity:
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+```
+
+### 4. Clone & Execution
+```bash
+# Clone the repository
+git clone https://github.com/ArshVermaGit/oss-audit-24BCG10026.git
+cd oss-audit-24BCG10026
+
+# Make all scripts executable (REQUIRED)
+chmod +x scripts/*.sh
+
+# Run the project scripts (details below)
+./scripts/script1_system_identity.sh
+```
 
 ---
 
