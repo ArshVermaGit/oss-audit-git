@@ -5,11 +5,7 @@
 **Course:** Open Source Software — CSE0002
 **Chosen Software:** Git (Version Control System)
 **License:** GNU General Public License v2 (GPL v2)
-<<<<<<< Updated upstream
-**Repository:** https://github.com/ArshVermaGit/oss-audit-git
-=======
 **Repository:** https://github.com/ArshVermaGit/oss-audit-24BCG10026
->>>>>>> Stashed changes
 
 ---
 
