@@ -5,7 +5,7 @@
 **Course:** Open Source Software — CSE0002
 **Chosen Software:** Git (Version Control System)
 **License:** GNU General Public License v2 (GPL v2)
-**Repository:** https://github.com/[YOUR GITHUB USERNAME]/oss-audit-git
+**Repository:** https://github.com/ArshVermaGit/oss-audit-git
 
 ---
 
