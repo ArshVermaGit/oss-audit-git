@@ -69,6 +69,9 @@ chmod +x scripts/*.sh
 ```
 oss-audit-24BCG10026/
 ├── README.md                              ← Project documentation (this file)
+├── PROJECT_REPORT.md                      ← Final technical project report
+├── report/
+│   └── oss_audit_report.md                ← Full 10,000-word audit report
 ├── scripts/
 │   ├── script1_system_identity.sh         ← System Identity Report
 │   ├── script2_package_inspector.sh       ← FOSS Package Inspector
